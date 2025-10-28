@@ -1,7 +1,7 @@
 from flask_restx import Api
 
-from utils.hello import api as ns_hello
-from utils.name import api as ns_name
+from .hello import api as ns_hello
+from .name import api as ns_name
 from .variantvalidator_endpoints import api as ns_vv
 
 # Define the API as api
